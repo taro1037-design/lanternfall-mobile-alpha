@@ -1,0 +1,21 @@
+name: Lanternfall visual alpha smoke
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check existing and new JavaScript syntax
+        run: |
+          node --check app.js
+          node --check visuals.js
+      - name: Check original local artwork and game action bindings
+        run: node --test visuals.test.mjs

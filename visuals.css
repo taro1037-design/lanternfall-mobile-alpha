@@ -1,0 +1,36 @@
+/* Original Lanternfall illustrated vertical slice: all artwork local and license-safe. */
+:root{--accent:#ffd792;--muted:#a9c5c8;--panel:#1a3448;--line:#54736c}
+body{background:radial-gradient(ellipse at 50% -6%,#456f78 0%,#0b1b30 65%,#081426 100%)}
+.app{background:linear-gradient(#13283e,#0c192c 42%);border-color:#3d655f;box-shadow:0 10px 80px #030b17a9}
+header{background:#12263b;border-color:#355965}header b{text-shadow:0 2px 20px #e5a75c55}
+.notice{background:#2f3444;line-height:1.5}
+.hero{background:linear-gradient(180deg,#284b65,#173044);border-bottom:1px solid #4f7775}
+.hero h1{letter-spacing:-.8px;text-shadow:0 3px 18px #041e37}
+.hud>div{background:#152e44c7;border-color:#5c7c76;box-shadow:inset 0 1px #f5deb533}
+.tabs{position:sticky;top:0;z-index:8;background:#183046f0;backdrop-filter:blur(12px);border-color:#46726f}
+.tabs button.active{background:linear-gradient(135deg,#527b71,#2d5c5e);color:#fff2ce;box-shadow:inset 0 1px #d5e1b644}
+.screen h2{color:#f8dfb1;font-size:clamp(25px,5vw,32px)}
+.world-frame{position:relative;margin:0 0 20px;isolation:isolate;background:#18394e;border:1px solid #6b8982;border-radius:19px;overflow:hidden;box-shadow:0 14px 38px #030e24aa,inset 0 2px #d9c39b99}
+.world-frame img{width:100%;display:block;aspect-ratio:760/460;object-fit:cover}
+.world-frame:after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 32px #162b4388;pointer-events:none}
+.world-kicker{position:absolute;left:13px;top:12px;background:#0c2538ce;color:#ffe6b5;letter-spacing:1.3px;font-size:10px;font-weight:900;padding:7px 11px;border:1px solid #d9bb8e66;border-radius:12px}
+.world-hotspot{position:absolute;z-index:2;bottom:14%;padding:7px 10px;background:#102b3fdf;color:#ffe6b1;border:1px solid #e2c68f99;box-shadow:0 3px 12px #051d31d6;border-radius:17px;font-size:11px;font-weight:800;transform:translateX(-50%);transition:background .2s,transform .2s}
+.world-hotspot:hover,.world-hotspot:focus-visible{background:#436c66;transform:translateX(-50%) translateY(-4px)}
+.world-hotspot.mine{left:24%}.world-hotspot.forge{left:51%}.world-hotspot.tavern{left:80%}
+.world-caption{display:flex;justify-content:space-between;gap:8px;color:#bed8d3;font-size:10px;padding:8px 4px 0}
+.world-caption strong{color:#ffdc9d}
+.claim{background:linear-gradient(110deg,#49645b,#26454d);border-color:#c7ae78}
+.claim strong{color:#ffe7b4}.btn{background:linear-gradient(120deg,#ffe0a0,#dcae69);box-shadow:0 4px 0 #876944}
+.facility{background:linear-gradient(135deg,#294a54,#1b3447);border-color:#628480;box-shadow:inset 0 1px #b3d6aa33}
+.facility button{background:#4c7369;border-color:#a0bfa2}.emblem{background:#426960;border-color:#92b7a7}
+.battle{overflow:hidden;background:radial-gradient(circle at 50% 5%,#476d72,#1d354c 68%);border-color:#7d8d7b}
+.battle-stage{position:relative;background:#122d40;border-radius:14px;border:1px solid #87a39899;overflow:hidden;margin:14px 0 15px;box-shadow:0 9px 26px #020c1c9e}
+.battle-stage img{display:block;width:100%;aspect-ratio:760/330;object-fit:cover}
+.battle-stage:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#0d25364f,transparent 45%);pointer-events:none}
+.battle-stage.active{animation:impact .45s ease-in-out 2}
+.battle-stage.victory{box-shadow:0 0 30px #f7cb6899}
+@keyframes impact{0%,100%{transform:translateX(0)}25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+.hero-card,.hero-line{border-color:#6e9287;background:linear-gradient(135deg,#2e5062,#21384f)}
+.hero-line h3{color:#ffdd9f}
+@media(max-width:450px){.world-hotspot{font-size:9px;padding:6px 7px}.world-kicker{font-size:9px}.world-caption{font-size:9px}.screen{padding:17px 11px}.battle{padding:14px}}
+@media(prefers-reduced-motion:reduce){.world-hotspot,.battle-stage{transition:none;animation:none!important}}

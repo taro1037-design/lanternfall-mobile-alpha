@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+<title id="title">Emberlight, a painted isometric fantasy village</title>
+<desc id="desc">The lantern-lit mine, cinder forge and traveler tavern on an island above the mist</desc>
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#162d4c"/><stop offset=".65" stop-color="#395a70"/><stop offset="1" stop-color="#d2a57a"/></linearGradient>
+<linearGradient id="grass" x2=".3" y2="1"><stop stop-color="#7e9471"/><stop offset=".62" stop-color="#547968"/><stop offset="1" stop-color="#244f53"/></linearGradient>
+<linearGradient id="wall" x2=".8" y2=".9"><stop stop-color="#f6d9a1"/><stop offset="1" stop-color="#ad8867"/></linearGradient>
+<linearGradient id="roof" x2="0" y2="1"><stop stop-color="#b94e50"/><stop offset="1" stop-color="#713d52"/></linearGradient>
+<linearGradient id="stone" x2=".4" y2="1"><stop stop-color="#7c8083"/><stop offset="1" stop-color="#303f57"/></linearGradient>
+<radialGradient id="light"><stop stop-color="#ffeab0" stop-opacity=".95"/><stop offset=".28" stop-color="#ffc16a" stop-opacity=".4"/><stop offset="1" stop-color="#ffb86b" stop-opacity="0"/></radialGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="10"/></filter>
+<filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+<pattern id="pebbles" width="42" height="24" patternUnits="userSpaceOnUse"><circle cx="8" cy="12" r="2" fill="#b8ae8c" opacity=".25"/><circle cx="31" cy="5" r="2" fill="#d5d09b" opacity=".25"/></pattern>
+</defs>
+<rect width="760" height="460" fill="url(#sky)"/>
+<circle cx="606" cy="78" r="36" fill="#ffe9ba" opacity=".86"/><circle cx="606" cy="78" r="91" fill="url(#light)"/>
+<path d="M0 202 90 115 142 169 250 94 354 171 465 72 564 157 690 113 760 189v136H0Z" fill="#334b64" opacity=".85"/>
+<path d="M0 238 101 166 182 218 304 143 407 220 545 137 661 225 760 181v156H0Z" fill="#416676" opacity=".67"/>
+<path d="M0 286Q171 225 327 264T760 251V460H0Z" fill="#6d8c8b" opacity=".55"/>
+<ellipse cx="381" cy="373" rx="344" ry="63" fill="#131f34" opacity=".5" filter="url(#shadow)"/>
+<path d="m55 311 269-86 345 78 34 66-334 81-312-79Z" fill="#233d45"/>
+<path d="m55 290 269-85 345 77 34 68-334 76-312-80Z" fill="url(#grass)" stroke="#bfba89" stroke-width="3"/>
+<path d="m75 301 250-76 317 69 37 44-316 72-279-73Z" fill="url(#pebbles)" opacity=".8"/>
+<path d="M369 416q-50-66-8-104T390 272q49-5 53 22-61 26-49 63t-3 64Z" fill="#c1a47b" opacity=".67"/>
+<path d="M376 407q-31-41-6-78 25-31 2-63" stroke="#d9c69a" stroke-width="5" fill="none" stroke-dasharray="8 8" opacity=".6"/>
+<!-- village pines -->
+<g fill="#294f4a" stroke="#183d45" stroke-width="3">
+<path d="m103 245 24-64 21 65-13-5 14 29-52 0 15-29Z"/><path d="m158 233 15-44 19 43-11-4 12 25-41 0 13-25Z"/>
+<path d="m579 242 23-64 24 64-15-5 17 27-56 0 18-27Z"/><path d="m639 265 16-56 21 56-12-6 17 32-47 0 16-32Z"/>
+<path d="m222 249 16-47 18 47-10-5 12 24-42 0 14-24Z"/>
+</g>
+<g fill="#d6b778" opacity=".7"><circle cx="178" cy="281" r="2"/><circle cx="552" cy="301" r="3"/><circle cx="129" cy="322" r="2"/><circle cx="621" cy="329" r="2"/></g>
+<!-- MINE / left cavern -->
+<g transform="translate(112 212)">
+<ellipse cx="71" cy="127" rx="103" ry="29" fill="#1b3235" opacity=".6"/>
+<path d="M-8 93 18 37 85 6l71 32 24 68-111 51Z" fill="url(#stone)" stroke="#4e6164" stroke-width="4"/>
+<path d="M30 109 48 52l37-18 54 22 17 50-61 31Z" fill="#283648" stroke="#a7a18e" stroke-width="7"/>
+<path d="M70 129 71 75q15-31 31 0l3 56Z" fill="#0d202e" stroke="#a39173" stroke-width="5"/>
+<path d="m17 55 28 12m-35 28 22 4m103-51 16-12" stroke="#b2ada0" stroke-width="4" opacity=".65"/>
+<path d="m60 136 13-13 34 1 16 15" stroke="#d2a978" stroke-width="6" fill="none"/>
+<ellipse cx="91" cy="119" rx="26" ry="24" fill="url(#light)" opacity=".7"/>
+<path d="m75 129 3-24h22l4 24" fill="#6e5243" stroke="#d5a96d" stroke-width="2"/>
+</g>
+<!-- FORGE center -->
+<g transform="translate(293 151)">
+<ellipse cx="91" cy="185" rx="108" ry="28" fill="#263a3a" opacity=".55"/>
+<path d="m7 90 79-40 97 37-85 45Z" fill="#8e6e5d"/>
+<path d="m7 91 91 40v70L7 164Z" fill="url(#wall)" stroke="#785d56" stroke-width="3"/>
+<path d="m98 131 85-44v78l-85 36Z" fill="#b38c6b" stroke="#785d56" stroke-width="3"/>
+<path d="m-16 93 92-68 125 54-98 64Z" fill="url(#roof)" stroke="#f4bb91" stroke-width="5"/>
+<path d="m-4 93 80-51 107 39" fill="none" stroke="#e7a989" stroke-width="4"/>
+<path d="M125 52V3l28-6v65Z" fill="#786777" stroke="#c2a38b" stroke-width="3"/>
+<path d="m119 4 40-9-10-14-27 4Z" fill="#ad8484"/>
+<path d="M131-30q-13-16 9-31-4 20 10 21-14 9-8 19Z" fill="#e1bca0" opacity=".45"/>
+<path d="m37 111 25 10v48l-25-9Z" fill="#4b4751" stroke="#dfb98b" stroke-width="4"/>
+<path d="m45 123 11 4v24l-11-3Z" fill="#ffc877"/><circle cx="51" cy="130" r="29" fill="url(#light)"/>
+<path d="m119 140 33-17v30l-33 15Z" fill="#5a5661" stroke="#e7cb8e" stroke-width="4"/>
+<path d="m128 144 16-9v15l-16 9Z" fill="#ffd995"/>
+<path d="m-13 180 45-22 38 20-44 21Z" fill="#9a7560"/>
+<path d="m9 171 26-8 22 10-25 9Z" fill="#d2a66f"/>
+</g>
+<!-- TAVERN right -->
+<g transform="translate(524 201)">
+<ellipse cx="75" cy="149" rx="110" ry="27" fill="#243d42" opacity=".5"/>
+<path d="m-14 76 94-50 112 35-91 51Z" fill="#7f5951"/>
+<path d="m-13 76 114 36v76L-13 148Z" fill="url(#wall)" stroke="#765b50" stroke-width="3"/>
+<path d="m101 112 91-51v89l-91 38Z" fill="#bb906a" stroke="#765b50" stroke-width="3"/>
+<path d="M-29 78 60-6l91 27 51 49-102 51Z" fill="#506577" stroke="#9cc0bb" stroke-width="5"/>
+<path d="m-18 75 83-69 75 24m-50 77 105-42" fill="none" stroke="#7898a7" stroke-width="4"/>
+<path d="m30 102 32 12v35l-32-12Z" fill="#3e5260" stroke="#f0d0a0" stroke-width="5"/>
+<path d="m37 113 17 7v19l-17-7Z" fill="#ffe09b"/><circle cx="45" cy="128" r="39" fill="url(#light)" opacity=".85"/>
+<path d="m122 137 37-18v38l-37 17Z" fill="#5e4b4c" stroke="#f2cb91" stroke-width="4"/>
+<path d="m133 139 17-9v16l-17 8Z" fill="#ffda8c"/>
+<path d="m-11 91 14-7 11 4-13 7Z" fill="#f7d27f"/>
+<path d="M13 34v37" stroke="#c8a97d" stroke-width="4"/><path d="m4 35 35 5-4 25-30-5Z" fill="#d8a267" stroke="#765b53" stroke-width="3"/>
+<path d="m12 44 17 3-2 9-15-2Z" fill="#ffe6aa"/>
+</g>
+<!-- foreground lanterns and embers -->
+<g stroke="#554e45" stroke-width="5"><path d="m264 361 0-55m218 58v-66"/></g>
+<g fill="#fee7aa" stroke="#b27c57" stroke-width="3"><path d="m255 308 18-2 0 19-18 2Z"/><path d="m472 299 19-2v19l-19 3Z"/></g>
+<g fill="url(#light)"><circle cx="265" cy="317" r="39"/><circle cx="482" cy="308" r="39"/></g>
+<path d="m83 370 51-11m426 24 58-13" stroke="#c8c09c" stroke-width="4" opacity=".4"/>
+<g fill="#ffe6a1"><circle cx="234" cy="204" r="3"/><circle cx="267" cy="177" r="2"/><circle cx="435" cy="135" r="3"/><circle cx="697" cy="215" r="2"/></g>
+</svg>

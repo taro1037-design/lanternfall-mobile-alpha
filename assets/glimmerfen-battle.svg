@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" aria-labelledby="title" role="img">
+<title id="title">Lightkeepers versus a shadow beast in the misty Glimmerfen</title>
+<defs>
+<linearGradient id="night" x2="0" y2="1"><stop stop-color="#253a58"/><stop offset=".62" stop-color="#4d676c"/><stop offset="1" stop-color="#1a3548"/></linearGradient>
+<linearGradient id="mist" x2="0" y2="1"><stop stop-color="#78938b" stop-opacity=".9"/><stop offset="1" stop-color="#426d67" stop-opacity=".2"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#f8db98" stop-opacity=".82"/><stop offset="1" stop-color="#ffe4a6" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="760" height="330" fill="url(#night)"/>
+<circle cx="590" cy="62" r="47" fill="#f6d99d"/><circle cx="590" cy="62" r="112" fill="url(#halo)"/>
+<path d="M0 161 97 81l68 66 86-77 112 103 111-94 97 104 88-96 101 88v152H0" fill="#2e4657"/>
+<path d="M0 198 105 143l107 54 113-70 151 85 117-69 166 54v129H0" fill="#35595d"/>
+<path d="M0 260q208-58 386 0T760 245v85H0" fill="url(#mist)"/>
+<ellipse cx="369" cy="294" rx="300" ry="27" fill="#1c3041"/>
+<path d="M0 291q110-39 216 4t269-5q133-40 275-3v43H0" fill="#527069"/>
+<!-- armored guardian -->
+<g transform="translate(134 63)">
+<ellipse cx="73" cy="218" rx="63" ry="12" fill="#1d2f3b" opacity=".7"/>
+<path d="M43 121 16 207l49 0 23-67Z" fill="#3f6a74"/>
+<path d="M83 133 97 208h37l-17-91Z" fill="#406271"/>
+<path d="M24 100 72 70l50 38-15 80-71 1Z" fill="#aebdc0" stroke="#dfe0cf" stroke-width="7"/>
+<path d="m25 101 33 34 26-5 37-27" stroke="#5b8087" stroke-width="8" fill="none"/>
+<path d="M53 51 76 35l27 21-6 33-36 1Z" fill="#dcb48b"/>
+<path d="m45 55 21-27h24l22 35-12 3-7-13-15 8-22-8Z" fill="#5c606a"/>
+<path d="M48 96 14 129l-7-10 29-42Z" fill="#e2bb90"/><path d="m111 98 39 61-10 7-48-44Z" fill="#d7b08e"/>
+<path d="M2 124q-29 25-2 65l36-4 14-39Z" fill="#c7a676" stroke="#f4d89c" stroke-width="6"/>
+<path d="m20 145-8 18 13 10 11-25" stroke="#f7e4bd" stroke-width="4" fill="none"/>
+</g>
+<!-- archer -->
+<g transform="translate(279 100)">
+<ellipse cx="55" cy="187" rx="42" ry="10" fill="#1c2d33"/>
+<path d="m39 110-18 76 26 0 19-50 18 50h23l-14-77Z" fill="#354f5f"/>
+<path d="m26 84 29-22 45 30-16 55-40-3Z" fill="#507c69"/>
+<path d="M47 56 61 42l22 16-7 27-25-1Z" fill="#eac59f"/>
+<path d="M35 48q25-44 56 0l-12 11-21-12-14 14Z" fill="#bd8b52"/>
+<path d="m34 100-18 43 10 9 26-43Z" fill="#e1b48d"/>
+<path d="m92 101 35 30-6 12-42-24Z" fill="#e1b48d"/>
+<path d="M127 80q49 45 0 96" fill="none" stroke="#e0c994" stroke-width="6"/>
+<path d="m127 80 0 96" stroke="#e4d0aa" stroke-width="2"/><path d="m73 127 103-20-20 12" stroke="#d7d1a0" stroke-width="4" fill="none"/>
+</g>
+<!-- healer -->
+<g transform="translate(391 107)">
+<ellipse cx="50" cy="182" rx="37" ry="10" fill="#1d2d3a"/>
+<path d="m40 91-30 85 86 0-24-85Z" fill="#c8b59b" stroke="#e5d4b2" stroke-width="5"/>
+<path d="M31 79 56 67l32 23-12 31-47-6Z" fill="#5f8d86"/>
+<circle cx="56" cy="54" r="22" fill="#ebbc92"/><path d="M32 55q-6-40 29-36 25 7 19 34l-18-11-15 13Z" fill="#a26a4d"/>
+<path d="m89 95 35 74" stroke="#8d765d" stroke-width="8"/><circle cx="127" cy="171" r="16" fill="#ffe5a4"/><circle cx="127" cy="171" r="40" fill="url(#halo)"/>
+</g>
+<!-- shadow wolf -->
+<g transform="translate(589 145)">
+<ellipse cx="60" cy="125" rx="87" ry="14" fill="#182a39"/>
+<path d="m2 71 22-45 51-21 56 22 40 56-45 11-36-14-47 5-17 30-16-5 8-31-23-2-28 33-15-4 17-42Z" fill="#354251" stroke="#758390" stroke-width="5"/>
+<path d="m99 19 6-42 29 38-4 36Z" fill="#354251"/><path d="m109 57 32-8-7 17Z" fill="#161f32"/>
+<path d="m111 35 10 1" stroke="#f5ae86" stroke-width="7"/><path d="M12 54q-41-54-69-30" fill="none" stroke="#607a7c" stroke-width="14"/>
+<path d="m37 81-15 39m75-33 3 41m36-50 25 35" stroke="#293a49" stroke-width="12"/>
+</g>
+<g fill="#f4e7bd" opacity=".67"><circle cx="93" cy="118" r="3"/><circle cx="471" cy="53" r="2"/><circle cx="531" cy="177" r="4"/><circle cx="716" cy="86" r="2"/></g>
+</svg>
